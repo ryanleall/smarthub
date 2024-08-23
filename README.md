@@ -4,7 +4,7 @@ Bem-vindo ao **SmartHub**! Este projeto é dedicado a fornecer análises detalha
 
 ## 📚 Índice
 
-- [Sobre](#sobre)
+- [Sobre](https://github.com/ryanleall/smarthub/blob/main/README.md#-sobre)
 - [Funcionalidades](#funcionalidades)
 - [Como Começar](#como-começar)
 - [Estrutura do Projeto](#estrutura-do-projeto)

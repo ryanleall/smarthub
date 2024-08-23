@@ -5,11 +5,7 @@ Bem-vindo ao **SmartHub**! Este projeto é dedicado a fornecer análises detalha
 ## 📚 Índice
 
 - [Sobre](https://github.com/ryanleall/smarthub/blob/main/README.md#-sobre)
-- [Funcionalidades](#funcionalidades)
-- [Como Começar](#como-começar)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
+- [Funcionalidades](https://github.com/ryanleall/smarthub/blob/main/README.md#-funcionalidades)
 
 ## 📖 Sobre
 
@@ -25,12 +21,3 @@ O **SmartHub** visa criar uma plataforma onde os entusiastas de anime podem expl
 - **Resenhas e Avaliações:** Leia resenhas detalhadas e veja classificações de outros usuários.
 - **Discussões e Comentários:** Participe de discussões e deixe comentários sobre os animes.
 - **Listas de Recomendação:** Descubra animes recomendados com base nas suas preferências.
-
-## 🛠️ Como Começar
-
-Para começar a usar o **SmartHub**, siga os passos abaixo:
-
-1. **Clone o Repositório**
-
-   ```bash
-   git clone https://github.com/seunome/smart-hub.git

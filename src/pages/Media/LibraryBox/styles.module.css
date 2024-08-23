@@ -1,9 +1,0 @@
-.libraryGroupBox {
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-}
-
-.libraryButton {
-  padding-inline: 0;
-}

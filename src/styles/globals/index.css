@@ -1,6 +1,0 @@
-/**
- * Breakpoints and Colors are imported via postcss config, not in here.
- */
-@import './fonts.css';
-@import './layers.css';
-@import './colors.css';

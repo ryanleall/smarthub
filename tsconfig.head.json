@@ -1,7 +1,0 @@
-{
-  "compilerOptions": {
-    "composite": true,
-    "isolatedModules": false
-  },
-  "include": ["src/theme-init.ts"]
-}

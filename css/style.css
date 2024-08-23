@@ -11,15 +11,15 @@
 }
 .light-mode .navbar {
   padding: 0;
-  background-color: #FBAB7E;
-  background-image: linear-gradient(342deg, #ffa16b 0%, #ffcf59 100%);
+  background-color: #000000;
+  background-image: linear-gradient(342deg, #000000 0%, #000000 100%);
  
 }
 
 .dark-mode .navbar {
   padding: 0;
   background-color: #FBAB7E;
-  background-image: linear-gradient(342deg, #363636 0%, #000000 100%);
+  background-image: linear-gradient(342deg, #000000 0%, #000000 100%);
 }
 .sticky{
   position: -webkit-sticky;
@@ -587,7 +587,7 @@ h1 {
 .light-mode .navbar-light .navbar-nav .nav-link{
   font-size: 1.4rem;
   font-weight: 700;
-  color: rgb(255 237 179);
+  color: beige;
 }
 
 .dark-mode .navbar-light .navbar-nav .nav-link{
@@ -598,7 +598,7 @@ h1 {
 .light-mode .navbar-light .navbar-nav .active>.nav-link{
   font-size: 1.4rem;
   font-weight: 700;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 123, 0);
   text-decoration: underline;
   border-radius: 5px;
 }

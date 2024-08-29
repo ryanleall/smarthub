@@ -1,36 +1,36 @@
 /* 
-    Add the class good/evil to make the character show when the good or evil slider is toggled. Simply leave no class to have 
-    the card always show. This is good for morally ambiguous characters. 
+    Adicione a classe animes/series para fazer aparecer quando o controle deslizante de series ou animes for ativado. 
+    Simplesmente não adicione nenhuma classe para que o card apareça sempre.
 */
 const toggleInput = document.getElementById("toggle-input");
 const toggleSlider = document.getElementById("toggle-slider");
 
-const goodCharacters = document.getElementsByClassName("good");
-const heroimg = document.getElementsByClassName("heroimg");
-const goodCharactersArray = Array.from(goodCharacters);
+const animesCharacters = document.getElementsByClassName("animes");
+const animesimg = document.getElementsByClassName("animesimg");
+const animesCharactersArray = Array.from(animesCharacters);
 
-const evilCharacters = document.getElementsByClassName("evil");
-const vilimg = document.getElementsByClassName("vilimg");
-const evilCharactersArray = Array.from(evilCharacters);
+const seriesCharacters = document.getElementsByClassName("series");
+const seriesimg = document.getElementsByClassName("seriesimg");
+const seriesCharactersArray = Array.from(seriesCharacters);
 
 const isToggled = toggleInput.checked;
 if (isToggled) {
-    hideCharacters(goodCharactersArray);
+    hideCharacters(animesCharactersArray);
 } else {
-    hideCharacters(evilCharactersArray);
+    hideCharacters(seriesCharactersArray);
 }
 
 toggleInput.addEventListener("change", () => {
     toggleSlider.style.left = toggleInput.checked ? "50%" : "0";
     
     if (!toggleInput.checked) {
-        showCharacters(goodCharactersArray);
-        hideCharacters(evilCharactersArray);
-        addSlideInAnimation(heroimg);
+        showCharacters(animesCharactersArray);
+        hideCharacters(seriesCharactersArray);
+        addSlideInAnimation(seriesimg);
     } else {
-        showCharacters(evilCharactersArray);
-        hideCharacters(goodCharactersArray);
-        addSlideInAnimation(vilimg);
+        showCharacters(seriesCharactersArray);
+        hideCharacters(animesCharactersArray);
+        addSlideInAnimation(animesimg);
     }
 });
 
@@ -59,10 +59,10 @@ function hideSlideInAnimation(images) {
     });
 }
 
-evilCharactersArray.forEach(character => {
+seriesCharactersArray.forEach(character => {
     console.log(character);
 })
-goodCharactersArray.forEach(character => {
+animesCharactersArray.forEach(character => {
     console.log(character);
 })
 

@@ -406,7 +406,7 @@ body {
    background-color: rgba(82, 82, 82, 0.232);
 }
 
-.heroimg {
+.animesimg {
  height: inherit;
  position: absolute;
  right: 0;
@@ -415,7 +415,7 @@ body {
  margin-right: 150px;
 z-index: -1;
 }
-.vilimg2{
+.seriesimg2{
   height: inherit;
   position: absolute;
   right: 0;
@@ -424,7 +424,7 @@ z-index: -1;
   margin-right: 100px;
  z-index: -1;
  }
-.heroimg2{
+.animesimg2{
   height: inherit;
   position: absolute;
  left: 0;
@@ -433,7 +433,7 @@ z-index: -1;
   margin-left: 150px;
  z-index: -1;
  }
- .vilimg{
+ .seriesimg{
   height: inherit;
   position: absolute;
  left: 0;

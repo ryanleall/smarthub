@@ -396,7 +396,8 @@ textarea:focus::placeholder{
 .img2{
   position: absolute;
  right: -100px;
-  bottom: 50px;
-  width: 500px;
+  bottom: 0px;
+  width: 300px;
+  left: 600px;
 
 }
